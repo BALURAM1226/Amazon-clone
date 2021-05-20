@@ -36,8 +36,7 @@ function Payment() {
         getClientSecret();
     }, [basket])
 
-    console.log('THE SECRET IS >>>', clientSecret)
-    console.log('👱', user)
+    
 
     const handleSubmit = async (event) => {
         // do all the fancy stripe stuff...
@@ -78,6 +77,7 @@ function Payment() {
     const handleChange = event => {
         // Listen for changes in the CardElement
         // and display any errors as the customer types their card details
+
         setDisabled(event.empty);
         setError(event.error ? event.error.message : "");
     }
