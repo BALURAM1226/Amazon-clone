@@ -86,15 +86,15 @@ const [index, setIndex] = useState(0);
 <Product 
  id={8}
   title="Sony ZX Series Wired On-Ear Headphones, Black MDR-ZX110 "
-   price={80}
+   price={50}
     rating={5}
-    image=" https://www.amazon.com/Roku-Streaming-Stick-HDR-Streaming-Long-range/dp/B075XLWML4/ref=lp_16225007011_1_1 "
+    image=" https://i.ibb.co/QQPfb69/51e-JUp-MRnz-L-AC-UY436-FMwebp-QL65.webp "
 />
 <Product 
  id={9}
   title="Nintendo Switch with Gray Joy‑Con - HAC-001(-01) "
    price={560}
-    rating={5}
+    rating={4}
     image=" https://i.ibb.co/37Jf3V3/41-C4-Jk-Snyz-L.jpg "
 />
 
