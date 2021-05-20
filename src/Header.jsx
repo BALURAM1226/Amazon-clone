@@ -66,7 +66,7 @@ function Header() {
         { user ?
        <span className="header_optionTwo header_count">
         {basket?.length}
-        </span> : <span className="header_optionTwo header_count">0</span>
+        </span> : <span className="header_optionTwo header_count">0</span> }
 
       </div>
       </Link>
