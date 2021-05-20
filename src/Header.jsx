@@ -58,7 +58,7 @@ function Header() {
     </Link>
 
       {/*basket icon */}
-       <Link to={user! && '/Login'} className="header_link">
+       <Link to={!user && '/Login'} className="header_link">
 
       <div className="header_basket">
 
