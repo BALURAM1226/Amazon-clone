@@ -78,8 +78,8 @@ const [index, setIndex] = useState(0);
 <div className ="home_raw">
  <Product 
  id={7}
-  title="New season style fashion "
-   price={80}
+  title="Playstation DualSense Wireless Controller "
+   price={70}
     rating={5}
     image=" https://www.amazon.com/Roku-Streaming-Stick-HDR-Streaming-Long-range/dp/B075XLWML4/ref=lp_16225007011_1_1 "
 />
