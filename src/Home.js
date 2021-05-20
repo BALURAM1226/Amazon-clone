@@ -92,10 +92,10 @@ const [index, setIndex] = useState(0);
 />
 <Product 
  id={9}
-  title="New season style fashion "
-   price={80}
+  title="Nintendo Switch with Gray Joy‑Con - HAC-001(-01) "
+   price={560}
     rating={5}
-    image=" https://www.amazon.com/Roku-Streaming-Stick-HDR-Streaming-Long-range/dp/B075XLWML4/ref=lp_16225007011_1_1 "
+    image=" https://i.ibb.co/37Jf3V3/41-C4-Jk-Snyz-L.jpg "
 />
 
   </div>
