@@ -81,7 +81,7 @@ const [index, setIndex] = useState(0);
   title="Playstation DualSense Wireless Controller "
    price={70}
     rating={5}
-    image=" https://www.amazon.com/Roku-Streaming-Stick-HDR-Streaming-Long-range/dp/B075XLWML4/ref=lp_16225007011_1_1 "
+    image=" https://i.ibb.co/3BfPYs8/41-UK-fp9jc-S.jpg "
 />
 <Product 
  id={8}
