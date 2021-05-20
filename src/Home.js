@@ -85,7 +85,7 @@ const [index, setIndex] = useState(0);
 />
 <Product 
  id={8}
-  title="New season style fashion "
+  title="Sony ZX Series Wired On-Ear Headphones, Black MDR-ZX110 "
    price={80}
     rating={5}
     image=" https://www.amazon.com/Roku-Streaming-Stick-HDR-Streaming-Long-range/dp/B075XLWML4/ref=lp_16225007011_1_1 "
