@@ -63,10 +63,10 @@ function Header() {
       <div className="header_basket">
 
         <ShoppingBasketIcon />
-        { user ?
+        
        <span className="header_optionTwo header_count">
         {basket?.length}
-        </span> : <span className="header_optionTwo header_count">0</span> }
+        </span> 
 
       </div>
       </Link>
