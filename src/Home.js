@@ -4,7 +4,7 @@ import Product  from './Product';
 
 
 export default function Home(){
-  /*
+  
 const [index, setIndex] = useState(0);
   const next = () => {
     setIndex((i) => (i + 1) % Images.length);
@@ -16,14 +16,14 @@ const [index, setIndex] = useState(0);
     return () => {
       clearInterval(timer);
     };
-  }, []); */
+  }, []); 
 
 
 
   return(
     <div className="home">
      {/*banner */}
-   <img className="home_img" src="https://i.ibb.co/mySD1jZ/freedom-sale-teaser-page-PC-unrec-08-CB441232371-SL1280-FMjpg.jpg" 
+   <img className="home_img" src={Images[index]} 
    alt="banner" />
     
     {/*Product*/}
