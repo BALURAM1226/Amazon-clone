@@ -58,13 +58,15 @@ function Header() {
     </Link>
 
       {/*basket icon */}
-       <Link to="/checkout" className="header_link">
+       <Link to={user! && '/Login'} className="header_link">
 
       <div className="header_basket">
+
         <ShoppingBasketIcon />
-        <span className="header_optionTwo header_count">
+        { user ?
+       <span className="header_optionTwo header_count">
         {basket?.length}
-        </span>
+        </span> : <span className="header_optionTwo header_count">0</span>
 
       </div>
       </Link>
