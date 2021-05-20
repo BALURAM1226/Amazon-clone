@@ -4,9 +4,11 @@ import { BrowserRouter as Router ,Switch,Route } from "react-router-dom";
 import Header from './Header';
 import Home from './Home';
 import LoginPage from './LoginPage';
+import { auth } from "./firebase";
+import { useStateValue } from "./StateProvider";
 import Checkout from './Checkout';
 export default function App() {
-  
+
 const [{}, dispatch] = useStateValue();
 
   useEffect(() => {
