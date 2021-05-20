@@ -75,6 +75,15 @@ const [index, setIndex] = useState(0);
     image=" https://i.ibb.co/DDd98cm/Combined-scroll-SY350-QL85.jpg "
 />
   </div>
+<div className ="home_raw">
+ <Product 
+ id={9}
+  title="New season style fashion "
+   price={80}
+    rating={5}
+    image=" https://www.amazon.com/Roku-Streaming-Stick-HDR-Streaming-Long-range/dp/B075XLWML4/ref=lp_16225007011_1_1 "
+/>
+  </div>
 
 
 
