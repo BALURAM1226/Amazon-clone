@@ -14,7 +14,7 @@ import Checkout from './Checkout';
 
 
 const promise = loadStripe(
-  "pk_test_51HPvU9DFg5koCdLGJJbNo60QAU99BejacsvnKvT8xnCu1wFLCuQP3WBArscK3RvSQmSIB3N0Pbsc7TtbQiJ1vaOi00X9sIbazL"
+  "pk_test_51ItAJ3SCvcRdNxPbJn9wm7IoiPCi3orGYOxmBmcNv7TrTiKI4eAV3mCRJepd2LmnO1MQu8G5pKnk2ULmPyfqghW200kBvpcGva"
 );
 
 export default function App() {
