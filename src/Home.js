@@ -95,7 +95,7 @@ const [index, setIndex] = useState(0);
   title="Nintendo Switch with Gray Joy‑Con - HAC-001(-01) "
    price={560}
     rating={4}
-    image=" https://i.ibb.co/37Jf3V3/41-C4-Jk-Snyz-L.jpg "
+    image=" https://i.ibb.co/QQPfb69/51e-JUp-MRnz-L-AC-UY436-FMwebp-QL65.webp "
 />
 
   </div>
