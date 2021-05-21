@@ -4,7 +4,7 @@ import Product  from './Product';
 import Images from './Images';
 
 export default function Home(){
-  
+  /*
 const [index, setIndex] = useState(0);
   const next = () => {
     setIndex((i) => (i + 1) % Images.length);
@@ -16,14 +16,14 @@ const [index, setIndex] = useState(0);
     return () => {
       clearInterval(timer);
     };
-  }, []); 
+  }, []); */
 
 
 
   return(
     <div className="home">
      {/*banner */}
-   <img className="home_img" src={Images[index]} 
+   <img className="home_img" src="https://i.ibb.co/SQ8nZMk/Desktop-Teaser-Header.jpg"
    alt="banner" />
     
     {/*Product*/}
