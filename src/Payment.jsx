@@ -69,7 +69,7 @@ function Payment() {
                 type: 'EMPTY_BASKET'
             })
 
-            history.replace('/order')
+            history.replace('/orders')
         })
 
     }
