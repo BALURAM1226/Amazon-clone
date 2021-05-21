@@ -5,7 +5,7 @@ import Header from './Header';
 import Home from './Home';
 import LoginPage from './LoginPage';
 import Payment from "./Payment";
-import Order from "./Order";
+import Orders from "./Orders";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import { loadStripe } from "@stripe/stripe-js";
@@ -48,9 +48,9 @@ const [{}, dispatch] = useStateValue();
     <div className="app">
     <Switch>
 
-     <Route path="/order">
+     <Route path="/orders">
             <Header />
-            <Order />
+            <Orders />
           </Route>
 
          <Route path="/payment">
