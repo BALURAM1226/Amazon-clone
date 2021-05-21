@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Home.css';
 import Product  from './Product';
-
+import LightSpeed from 'react-reveal/LightSpeed';
 
 export default function Home(){
   /*
@@ -23,9 +23,11 @@ const [index, setIndex] = useState(0);
   return(
     <div className="home">
      {/*banner */}
+     <LightSpeed right>
    <img className="home_img" src="https://i.ibb.co/SQ8nZMk/Desktop-Teaser-Header.jpg"
    alt="banner" />
-    
+      
+    </LightSpeed>
     {/*Product*/}
      <div className ="home_raw" >
      <Product
