@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Home.css';
 import Product  from './Product';
-import Images from './Images';
+
 
 export default function Home(){
   /*
