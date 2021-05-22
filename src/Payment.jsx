@@ -47,18 +47,18 @@ function Payment() {
             payment_method: {
                 card: elements.getElement(CardElement)
             }
-        }).then(({ paymentIntent }) => {
-            // paymentIntent = payment confirmation
+        }).then(( payment_intent ) => {
+            // payment"intent = payment confirmation
 
             db
               .collection('users')
               .doc(user?.uid)
               .collection('orders')
-              .doc(paymentIntent.id)
+              .doc(payment_ntent.id)
               .set({
                   basket: basket,
-                  amount: paymentIntent.amount,
-                  created: paymentIntent.created
+                  amount: payment_intent.amount,
+                  created: payment_intent.created
               })
 
             setSucceeded(true);
