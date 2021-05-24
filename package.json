@@ -11,6 +11,7 @@
     "events": "^3.3.0",
     "axios": "^0.20.0",
     "moment": "^2.27.0",
+    "react-stripe-checkout": "2.6.3",
     "@stripe/react-stripe-js": "^1.1.2",
     "@stripe/stripe-js": "^1.9.0",
     "firebase": "^8.6.1",
