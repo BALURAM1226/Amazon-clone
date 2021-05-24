@@ -3,8 +3,9 @@ import './Payment.css';
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import { Link, useHistory } from "react-router-dom";
-import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
+import { useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
+import StripeCheckout from 'react-stripe-checkout';
 import { basketTotalAmount } from "./reducer";
 import axios from './axios';
 import { db } from "./firebase";
@@ -132,7 +133,15 @@ function Payment() {
                             {/* Stripe magic will go */}
 
                             <form onSubmit={handleSubmit}>
-                                <CardElement onChange={handleChange}/>
+                                <StripeCheckout onChange={handleChange}
+
+                                   description 
+  shippingAddress
+
+                            
+
+                                   />
+
 
                                 <div className='payment__priceContainer'>
                                     <CurrencyFormat
