@@ -16,13 +16,10 @@ export default function Home(){
   
      {/*banner */}
 
-        <Slider autoplay={true} dots={true}>
-   
-        <img className="home_img" src={image1} alt="images"/>
-        <img className="home_img" src={image2} alt="images"/>
+        
         <img className="home_img" src={image3} alt="images"/>
         
-      </Slider>
+  
  
     {/*Product*/}
      <div className ="home_raw" >
