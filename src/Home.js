@@ -15,10 +15,12 @@ export default function Home(){
     <div className="home">
   
      {/*banner */}
-      <Slider className="slider">
-       
-        <img className="home_img" src={image2} alt="images"/>
+      <Slider autoplay={true} item={5} className="slider">
+       <img className="home_img" src={image1} alt="images"/>
+       <img className="home_img" src={image2} alt="images"/>
         <img className="home_img" src={image3} alt="images"/>
+        <img className="home_img" src={image4} alt="images"/>
+        <img className="home_img" src={image5} alt="images"/>
         </Slider>
   
  
