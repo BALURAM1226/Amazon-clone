@@ -7,8 +7,7 @@ export default function Home(){
   return(
     <div className="home">
      {/*banner */}
-     <PosterSlider className="home_img" />
-      
+    
  
     {/*Product*/}
      <div className ="home_raw" >
