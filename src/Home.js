@@ -6,6 +6,7 @@ import PosterSlider from './PosterSlider';
 export default function Home(){
   return(
     <div className="home">
+   <div className="home__container">
      {/*banner */}
 
         <img
@@ -88,7 +89,7 @@ export default function Home(){
 
   </div>
 
-
+   </div>
 
     </div>
 
