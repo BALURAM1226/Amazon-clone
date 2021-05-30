@@ -1,7 +1,14 @@
 import React, {useState} from 'react';
 import './Home.css';
 import Product  from './Product';
-import PosterSlider from './PosterSlider';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import image1 from "./images/1.jpg";
+import image2 from "./images/2.jpg";
+import image3 from "./images/3.jpg";
+import image4 from "./images/4.jpg";
+import image5 from "./images/5.jpg";
 
 export default function Home(){
   return(
