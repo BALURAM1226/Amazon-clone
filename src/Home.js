@@ -2,23 +2,8 @@ import React, {useState} from 'react';
 import './Home.css';
 import Product  from './Product';
 import PosterSlider from './PosterSlider';
+
 export default function Home(){
-  /*
-const [index, setIndex] = useState(0);
-  const next = () => {
-    setIndex((i) => (i + 1) % Images.length);
-  };
-  useEffect(() => {
-    const timer = setInterval(() => {
-      next();
-    }, 4000);
-    return () => {
-      clearInterval(timer);
-    };
-  }, []); */
-
-
-
   return(
     <div className="home">
      {/*banner */}
