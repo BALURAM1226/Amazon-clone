@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./PosterSlider.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
