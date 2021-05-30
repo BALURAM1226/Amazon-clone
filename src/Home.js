@@ -6,14 +6,17 @@ import PosterSlider from './PosterSlider';
 export default function Home(){
   return(
     <div className="home">
-   <div className="home__container">
+  
      {/*banner */}
 
-        <img
-          className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt=""
-        />
+        <Slider autoplay={true} dots={true}>
+   
+        <img className="home_img" src={image1} alt="images"/>
+        <img className="home_img" src={image2} alt="images"/>
+        <img className="home_img" src={image3} alt="images"/>
+        <img className="home_img" src={image4} alt="images"/>
+        <img className="home_img" src={image5} alt="images"/>  
+      </Slider>
  
     {/*Product*/}
      <div className ="home_raw" >
@@ -89,7 +92,6 @@ export default function Home(){
 
   </div>
 
-   </div>
 
     </div>
 
