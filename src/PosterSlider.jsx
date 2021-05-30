@@ -13,23 +13,16 @@ export default function PosterSlider() {
 
   return (
     <>
-    <div className="div">
-    <Slider autoplay={true} dots={true}>
     
-      <div>
+    <Slider autoplay={true} dots={true}>
+   
         <img className="img" src={image1} alt="images"/>
-      </div>
-      
-      <div>
         <img className="img" src={image2} alt="images"/>
-
-      </div>
-      
-        <div>
         <img className="img" src={image3} alt="images"/>
-      </div>
+        <img className="img" src={image4} alt="images"/>
+        <img className="img" src={image5} alt="images"/>  
       </Slider>
-      </div>
+      
     </>
   );
 }
