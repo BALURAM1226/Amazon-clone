@@ -19,3 +19,14 @@
 width:100%;
 height:400px;
 }
+.slick-arrow.slick-next{
+  margin-right:42px;
+  z-index:1;
+  color:black !important;
+}
+.slick-arrow.slick-prev{
+  
+  margin-left:42px;
+  z-index:1;
+  color:black !important;
+}
