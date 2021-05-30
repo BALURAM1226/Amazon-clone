@@ -15,10 +15,11 @@ export default function Home(){
     <div className="home">
   
      {/*banner */}
-
-        
+      <Slider className="slider">
+       
+        <img className="home_img" src={image2} alt="images"/>
         <img className="home_img" src={image3} alt="images"/>
-        
+        </Slider>
   
  
     {/*Product*/}
