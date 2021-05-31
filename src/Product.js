@@ -31,7 +31,7 @@ import { useStateValue } from "./StateProvider";
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>🌟</p>
+              <p>⭐️</p>
             ))}
         </div>
       </div>
