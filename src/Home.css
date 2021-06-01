@@ -31,7 +31,7 @@ height:400px;
   color:black !important;
 }
 
-@media screen  and (max-width: 735px){
+@media screen  and (max-width: 480px){
      .home_raw{
        display:flex;
       flex-direction: column;
