@@ -56,3 +56,23 @@
 .header_count{
   margin: 0 10px 0 10px;
 }
+@media screen and (max-width:735px){
+   .header_logo{
+     width:57px;
+     margin:12px 14px 0 14px;
+     }
+   .headerNav{
+     margin:4px;
+
+     }
+   .header_option {
+     margin:0 4px 0 4px;
+     }
+   .header_optionOne{
+  font-size: 7px;
+}
+.header_optionTwo{
+  font-size: 5px;
+  font-weight: 700;
+}
+   }
