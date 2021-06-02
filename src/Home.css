@@ -7,6 +7,7 @@
     max-width: 1500px;
      margin-left: auto;
      margin-right: auto; 
+     height:30vh;
     } 
 
  .home_raw{ 
@@ -15,10 +16,10 @@
      margin-left: 5px; 
      margin-right: 5px; 
 }
-.slider{
-width:100%;
-height:400px;
-}
+  .slider{
+   width:100%;
+   height:30vh;
+  }
 .slick-arrow.slick-next{
   margin-right:42px;
   z-index:1;
