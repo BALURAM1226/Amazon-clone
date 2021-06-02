@@ -133,14 +133,11 @@ function Payment() {
                             {/* Stripe magic will go */}
 
                             <form onSubmit={handleSubmit}>
-                                <StripeCheckout onChange={handleChange}
-
+                                <StripeCheckout className="card" onChange={handleChange}
                                    description 
-  shippingAddress
+                                   shippingAddress />
 
-                            
-
-                                   />
+                   
 
 
                                 <div className='payment__priceContainer'>
@@ -154,9 +151,7 @@ function Payment() {
                                         thousandSeparator={true}
                                         prefix={"$"}
                                     />
-                                    <button disabled={processing || disabled || succeeded}>
-                                        <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
-                                    </button>
+                                    
                                 </div>
 
                                   {/* Errors */}
